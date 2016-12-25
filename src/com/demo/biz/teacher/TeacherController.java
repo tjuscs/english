@@ -162,7 +162,7 @@ public class TeacherController extends Controller {
             return;
         }
         //验证用户登陆是否成功
-        Optional<User> teacher = Optional.ofNullable(User.dao.findFirst("select * from user where account = ? and password = md(?)", getPara("user.account"), getPara("user.password")));
+        Optional<User> teacher = Optional.ofNullable(User.dao.findFirst("select * from user where account = ? and password = md5(?)", getPara("user.account"), getPara("user.password")));
         if (teacher.isPresent()) {
             setSessionAttr(TEACHER_KEY, teacher.get());
             renderJson("verify", true);

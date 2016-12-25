@@ -10,17 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <link rel="icon" type="image/png" href="/assets/i/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="/assets/i/app-icon72x72@2x.png">
+    <link rel="icon" type="image/png" href="/english/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/english/assets/i/app-icon72x72@2x.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
 <#--css-->
-    <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
-    <link rel="stylesheet" href="/assets/css/admin.css">
+    <link rel="stylesheet" href="/english/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/english/assets/css/admin.css">
 <#--script-->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/layer/layer.js"></script>
-    <script src="/assets/js/amazeui.min.js"></script>
-    <script src="/assets/js/app.js"></script>
+    <script src="/english/assets/js/jquery.min.js"></script>
+    <script src="/english/assets/layer/layer.js"></script>
+    <script src="/english/assets/js/amazeui.min.js"></script>
+    <script src="/english/assets/js/app.js"></script>
 </head>
 <body>
 
@@ -47,7 +47,7 @@
                 <ul class="am-dropdown-content">
                     <li><a href="#"><span class="am-icon-user"></span> 资料</a></li>
                     <li><a href="#"><span class="am-icon-cog"></span> 设置</a></li>
-                    <li><a href="/admin/logout"><span class="am-icon-power-off"></span> 退出</a></li>
+                    <li><a href="/english/admin/logout"><span class="am-icon-power-off"></span> 退出</a></li>
                 </ul>
             </li>
             <li class="am-hide-sm-only"><a href="javascript:;" id="admin-fullscreen"><span

@@ -1,7 +1,7 @@
 <#include "/front/common/_layout.ftl"/>
 <#import "/front/common/_menu.ftl" as m/>
 <@layout>
-<link href="/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
+<link href="/english/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
 
 <div class="am-g">
     <div class="am-u-sm-6 am-u-lg-centered">

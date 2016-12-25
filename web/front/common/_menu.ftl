@@ -7,7 +7,7 @@
             <ul class="nav">
                 <#list menuItems as item>
                     <li>
-                        <a href="/<#if item.id != 1>content/${item.id}</#if>">
+                        <a href="/english/<#if item.id != 1>content/${item.id}</#if>">
                             ${item.name}
                         </a>
                     </li>

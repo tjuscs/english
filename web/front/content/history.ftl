@@ -2,7 +2,7 @@
 <#import "/front/common/_menu.ftl" as m/>
 <#import "/front/common/_treemenu.ftl" as tm/>
 <@layout>
-<link href="/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
+<link href="/english/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
 <!--推荐站点--需JQquery文件-->
 <script type="text/javascript">
     $(document).ready(function () {
@@ -57,10 +57,10 @@
             &gt;&gt; 正文
         </div>
 
-    <#--<link rel="stylesheet" type="text/css" href="/assets/css/default.css" />-->
+    <#--<link rel="stylesheet" type="text/css" href="/english/assets/css/default.css" />-->
 
-        <link rel="stylesheet" type="text/css" href="/assets/css/component.css"/>
-        <script src="/assets/js/modernizr.custom.js"></script>
+        <link rel="stylesheet" type="text/css" href="/english/assets/css/component.css"/>
+        <script src="/english/assets/js/modernizr.custom.js"></script>
         <div class="container">
             <div class="main" style="width: 500px;position: relative;margin: 0 auto;">
                 <ul class="cbp_tmtimeline">

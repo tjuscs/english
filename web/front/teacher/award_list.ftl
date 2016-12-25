@@ -1,8 +1,8 @@
 <#include "/front/common/_layout.ftl"/>
 <#import "/front/common/_treemenu.ftl" as tm/>
 <@layout>
-<link href="/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
-<link href="/assets/css/pages.css" rel="stylesheet">
+<link href="/english/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
+<link href="/english/assets/css/pages.css" rel="stylesheet">
 
 <style>
     .t-l > div {

@@ -88,11 +88,11 @@
         </div>
     </div>
 </div>
-<link rel="stylesheet" type="text/css" href="/assets/dataTables/amazeui.datatables.min.css">
-<link rel="stylesheet" type="text/css" href="/assets/zTree_v3-master/css/zTreeStyle/zTreeStyle.css">
-<script type="text/javascript" charset="utf8" src="/assets/dataTables/amazeui.datatables.min.js"></script>
-<script src="/assets/zTree_v3-master/js/jquery.ztree.core.min.js"></script>
-<script src="/assets/js/moment.js"></script>
+<link rel="stylesheet" type="text/css" href="/english/assets/dataTables/amazeui.datatables.min.css">
+<link rel="stylesheet" type="text/css" href="/english/assets/zTree_v3-master/css/zTreeStyle/zTreeStyle.css">
+<script type="text/javascript" charset="utf8" src="/english/assets/dataTables/amazeui.datatables.min.js"></script>
+<script src="/english/assets/zTree_v3-master/js/jquery.ztree.core.min.js"></script>
+<script src="/english/assets/js/moment.js"></script>
 <style>
 
 </style>
@@ -104,7 +104,7 @@
         //init jquery datagrid
         var table = $('#dt').DataTable({
             "ajax": {
-                "url": "/admin/news/list",
+                "url": "/english/admin/news/list",
                 "dataSrc": function (json) {
                     json.data = json.list
                     json.recordsTotal = json.totalRow
@@ -166,7 +166,7 @@
                 layer.confirm('确定删除？', {
                     btn: ['确定', '取消'] //按钮
                 }, function () {
-                    $.get("/admin/news/delete?id=" + data.id, function (data) {
+                    $.get("/english/admin/news/delete?id=" + data.id, function (data) {
                         layer.msg('删除成功', {icon: 1});
                         table.draw();
                     })
@@ -178,13 +178,13 @@
                     shadeClose: true,
                     shade: 0.8,
                     area: ['80%', '90%'],
-                    content: '/admin/news/content?id=' + data.id,
+                    content: '/english/admin/news/content?id=' + data.id,
                 })
             } else if ($(this).hasClass("am-btn-success")) {
                 layer.confirm('确定切换状态？', {
                     btn: ['确定', '取消'] //按钮
                 }, function () {
-                    $.get("/admin/news/verified?id=" + data.id + "&show=" + !data.verified, function (data) {
+                    $.get("/english/admin/news/verified?id=" + data.id + "&show=" + !data.verified, function (data) {
                         layer.msg('成功', {icon: 1});
                         table.draw();
                     })
@@ -193,7 +193,7 @@
                 layer.confirm('确定切换置顶？', {
                     btn: ['确定', '取消'] //按钮
                 }, function () {
-                    $.get("/admin/news/top?id=" + data.id + "&top=" + !data.top, function (data) {
+                    $.get("/english/admin/news/top?id=" + data.id + "&top=" + !data.top, function (data) {
                         layer.msg('成功', {icon: 1});
                         table.draw();
                     })
@@ -211,7 +211,7 @@
                     shadeClose: true,
                     shade: 0.8,
                     area: ['80%', '90%'],
-                    content: '/admin/news/content/' + typeId,
+                    content: '/english/admin/news/content/' + typeId,
                 })
             } else {
                 alert("请先从左侧菜单选择类型")
@@ -234,7 +234,7 @@
                 }
             }
         };
-        $.getJSON("/admin/news/categories", {}, function (data) {
+        $.getJSON("/english/admin/news/categories", {}, function (data) {
             $.fn.zTree.init($("#tree"), setting, data);
         });
     });

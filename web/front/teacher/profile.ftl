@@ -14,33 +14,33 @@
     <!-- No Baidu Siteapp-->
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
 
-    <link rel="icon" type="image/png" href="/assets/i/favicon.png">
+    <link rel="icon" type="image/png" href="/english/assets/i/favicon.png">
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="/assets/i/app-icon72x72@2x.png">
+    <link rel="icon" sizes="192x192" href="/english/assets/i/app-icon72x72@2x.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-    <link rel="apple-touch-icon-precomposed" href="/assets/i/app-icon72x72@2x.png">
+    <link rel="apple-touch-icon-precomposed" href="/english/assets/i/app-icon72x72@2x.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/assets/i/app-icon72x72@2x.png">
+    <meta name="msapplication-TileImage" content="/english/assets/i/app-icon72x72@2x.png">
     <meta name="msapplication-TileColor" content="#0e90d2">
 
-    <link rel="stylesheet" href="/assets/css/amazeui.flat.min.css">
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <script src="/assets/js/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="/english/assets/css/amazeui.flat.min.css">
+    <link rel="stylesheet" href="/english/assets/css/app.css">
+    <script src="/english/assets/js/jquery-1.12.4.min.js"></script>
 
-    <script type="text/javascript" charset="utf-8" src="/assets/ueeditor/ueditor.config.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/ueeditor/ueditor.all.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/ueeditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/ueeditor/ueditor.all.min.js"></script>
     <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
     <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
-    <script type="text/javascript" charset="utf-8" src="/assets/ueeditor/lang/zh-cn/zh-cn.js"></script>
-    <script src="/assets/js/vue2.0.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/js/vue-resource.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/ueeditor/lang/zh-cn/zh-cn.js"></script>
+    <script src="/english/assets/js/vue2.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/js/vue-resource.min.js"></script>
     <style>
 
         li.todo:hover {

@@ -2,7 +2,7 @@
 <#import "/front/common/_menu.ftl" as m/>
 <#import "/front/common/_treemenu.ftl" as tm/>
 <@layout>
-<link href="/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
+<link href="/english/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
 <!--推荐站点--需JQquery文件-->
 <script type="text/javascript">
     $(document).ready(function () {
@@ -57,8 +57,8 @@
             &gt;&gt; 正文
         </div>
     <#--d3.js part-->
-        <script type="text/javascript" src="/assets/js/d3/d3.js"></script>
-        <script type="text/javascript" src="/assets/js/d3/d3.layout.js"></script>
+        <script type="text/javascript" src="/english/assets/js/d3/d3.js"></script>
+        <script type="text/javascript" src="/english/assets/js/d3/d3.layout.js"></script>
         <style type="text/css">
 
 
@@ -223,7 +223,7 @@
                 })
                 .style("fill-opacity", 1e-6)
                 .on("click", function (d) {
-                    window.location.href = "/content/" + d.url
+                    window.location.href = "/english/content/" + d.url
                 });
 
         // Transition nodes to their new position.

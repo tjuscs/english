@@ -50,10 +50,10 @@
         </div>
     </div>
 
-    <link rel="stylesheet" type="text/css" href="/assets/dataTables/amazeui.datatables.min.css">
-    <script type="text/javascript" charset="utf8" src="/assets/dataTables/amazeui.datatables.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/js/vue.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/js/vue-resource.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/english/assets/dataTables/amazeui.datatables.min.css">
+    <script type="text/javascript" charset="utf8" src="/english/assets/dataTables/amazeui.datatables.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/js/vue.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/js/vue-resource.min.js"></script>
 
     <script type="text/javascript">
         $(function () {
@@ -64,7 +64,7 @@
             };
             var table = $('#dt').DataTable({
                 "ajax": {
-                    "url": "/admin/administrator/list",
+                    "url": "/english/admin/administrator/list",
                     "dataSrc": function (json) {
                         json.data = json.list
                         json.recordsTotal = json.totalRow
@@ -112,7 +112,7 @@
 
             new Vue({
                 http: {
-                    root: '/admin/administrator',
+                    root: '/english/admin/administrator',
                 },
                 el: "#administrator-form",
                 data: administratorData,
@@ -149,7 +149,7 @@
                         this.currentItem = null;
                     }
                 }, created: function () {
-                    this.$http.get("/admin/administrator/categories").then(
+                    this.$http.get("/english/admin/administrator/categories").then(
                             function (json) {
                                 this.categories = json.data
                             });

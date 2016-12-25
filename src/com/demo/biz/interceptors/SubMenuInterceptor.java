@@ -21,7 +21,7 @@ public class SubMenuInterceptor implements Interceptor {
         Category hT = Category.dao.findById(cid.get());//最外层的板块
 
         Category cT = hT;
-        while (cT.getType() == 0 && cT.subContentTypes().size() != 0){
+        while (cT.subContentTypes().size() != 0){
             cT = cT.subContentTypes().get(0);
         }
         inv.getController().setAttr("contentType", cT);
