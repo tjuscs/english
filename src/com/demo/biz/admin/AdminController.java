@@ -45,7 +45,7 @@ public class AdminController extends Controller {
             return;
         }
         //验证用户登陆是否成功
-        Optional<Admin> admin = Optional.ofNullable(Admin.dao.findFirst("select * from admin where account = ? and password = md(?)", getPara("user.account"), getPara("user.password")));
+        Optional<Admin> admin = Optional.ofNullable(Admin.dao.findFirst("select * from admin where account = ? and password = md5(?)", getPara("user.account"), getPara("user.password")));
         if (admin.isPresent()) {
             setSessionAttr(USER_KEY, admin.get());
             //检查用户权限并存入session

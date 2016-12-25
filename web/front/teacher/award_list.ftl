@@ -10,7 +10,7 @@
     }
 
     div.t-l h1 {
-        font-size: 1.7rem;
+        font-size: 0.8rem;
         margin: 0;
         font-weight: 100;
         background-color: rgb(40, 145, 152);
