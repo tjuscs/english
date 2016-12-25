@@ -14,9 +14,9 @@
                     <div class="widget-container">
                         <h6 class="widget-title">Faculty&amp;Staff</h6>
                         <ul>
-                            <li class="cat-item cat-item-3"><a href="/teacher/21"><b>Faculty</b></a></li>
-                            <li class="cat-item cat-item-3"><a href="/teacher/25"><b>Distinguished Faculty</b></a></li>
-                            <li class="cat-item cat-item-3"><a href="/teacher/26"><b>Staff</b></a></li>
+                            <li class="cat-item cat-item-3"><a href="/english/content/21"><b>Profile</b></a></li>
+                            <li class="cat-item cat-item-3"><a href="/english/teacher/22"><b>Faculty</b></a></li>
+                            <li class="cat-item cat-item-3"><a href="/english/teacher/25"><b>Distinguished Faculty</b></a></li>
                         </ul>
                         <div class="clear"></div>
                     </div>

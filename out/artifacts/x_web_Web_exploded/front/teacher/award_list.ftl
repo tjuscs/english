@@ -10,7 +10,7 @@
     }
 
     div.t-l h1 {
-        font-size: 1.7rem;
+        font-size: 0.8rem;
         margin: 0;
         font-weight: 100;
         background-color: rgb(40, 145, 152);
@@ -55,7 +55,7 @@
                                         <ul style="list-style-type:none;">
                                             <#list k.value as t>
                                                 <li <#if strategy == "award">style="text-align: left;width: auto;" </#if>><a
-                                                        href="/teacher/detail/${t.id}">
+                                                        href="/english/teacher/detail/${t.id}">
                                                     <#if strategy == "award">
                                                         <#if t.awardName?has_content>
                                                         ${t.awardName} :

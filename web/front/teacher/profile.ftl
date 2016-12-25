@@ -64,7 +64,7 @@
                     <a href="profile">个人基本信息</a>
                 </li>
                 <li>
-                    <a href="/teacher/logout">退出</a>
+                    <a href="/english/teacher/logout">退出</a>
                 </li>
             </ul>
         </nav>

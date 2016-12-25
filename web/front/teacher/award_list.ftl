@@ -55,7 +55,7 @@
                                         <ul style="list-style-type:none;">
                                             <#list k.value as t>
                                                 <li <#if strategy == "award">style="text-align: left;width: auto;" </#if>><a
-                                                        href="/teacher/detail/${t.id}">
+                                                        href="/english/teacher/detail/${t.id}">
                                                     <#if strategy == "award">
                                                         <#if t.awardName?has_content>
                                                         ${t.awardName} :

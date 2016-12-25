@@ -61,7 +61,7 @@
     $("#btn-login").on('click', function () {
         $.ajax({
             type: 'POST',
-            url: '/teacher/login',
+            url: '/english/teacher/login',
             data: $("#login-form").serialize(),
             success: function (data) {
                 if (data['verify']) {
