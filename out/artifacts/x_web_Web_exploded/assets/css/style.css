@@ -1,0 +1,367 @@
+ body {color: #5a5a5a;width:100%;margin:0;padding:0;}
+
+
+.navstyle{height:48px;background-color: #068898;}
+
+.top-menu{
+	float:left;
+}
+.top-menu span{
+	display:none;
+}
+.top-menu ul{
+	padding:0;
+	margin:0;
+}
+.top-menu ul li{
+	display: inline-block;
+	line-height: 48px;
+}
+.top-menu ul li a{
+	font-size: 1.1em;
+	color: #fff;
+	text-decoration:none;
+	padding:0px 30px;
+
+}
+.top-menu ul li.cap a{
+	text-decoration:none;
+	background: #01518e;
+	color:#fff;
+}
+.top-menu ul li a:hover{
+	color:#fff;
+	background: #01518e;
+}	
+@media only screen and (max-width : 968px) {
+	span.menu {
+	  position: absolute;
+	  width: 35px;
+	  height: 35px;
+	  background: url(/assets/i/nav.png)no-repeat 0px 0px;
+	  display: inline-block;
+	  left:47%;
+	  cursor: pointer;
+	  margin-top:7px;
+	}
+	.top-menu {
+		float: none;
+		margin-top: 0em;
+	}
+	.top-menu ul.nav{
+		display:none;
+	}
+	.top-menu  ul.nav li {
+		display:block;
+		margin-right:0;
+	}
+	.top-menu  span.menu{
+		display:block;
+	}
+	.top-menu  ul{
+	  margin: 60px 0;
+	  padding: 2% 0;
+	  z-index: 999;
+	  position: absolute;
+	  width: 100%;
+	  background:rgba(6, 136, 152, 0.88);
+	  text-align: center;
+	  z-index: 99999;
+	}
+	.top-menu ul.nav li  a{
+	  padding:0px;
+	  font-weight: 400;
+	  font-size:1em;
+	 }
+	.top-menu ul .nav li a:active{
+		color:#fff;
+		background: #01518e;
+	}
+}
+
+    /* CUSTOMIZE THE CAROUSEL
+    -------------------------------------------------- */
+
+/*============================================ SLIDER   =================================================*/
+#slidercontainer{clear:both; height:auto; position:relative; height:345px;background:url("/assets/i/bg.jpg") center;margin-bottom:15px;}
+#slider{position:relative; height:auto;}
+.opacityslider{background:url(/assets/i/opacity-slider.png) repeat; height:10px; position:absolute; width:100%; z-index:10}
+#carouselslider{ position:absolute; bottom:-54px; z-index:11; width:1000px;}
+.flexslider{
+	position: relative;
+	zoom:1;
+}
+#outerslider{border-bottom:solid 1px #fff;}
+.flex-caption{color:#fff}
+.flex-caption h1, .flex-caption .slidetext1{color:#FFFFFF; text-shadow: 1px 1px 1px #000;font-family: 'Open Sans', sans-serif, arial;}
+.flex-caption span{color:#bbb;}
+
+    /* MARKETING CONTENT
+    -------------------------------------------------- */
+
+    /* Center align the text within the three columns below the carousel */
+    .marketing .span4 {
+      text-align: center;
+    }
+    .marketing h2 {
+      font-weight: normal;
+    }
+    .marketing .span4 p {
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+
+
+    /* Featurettes
+    ------------------------- */
+
+    .featurette-divider {
+      margin: 80px 0; /* Space out the Bootstrap <hr> more */
+    }
+    .featurette {
+      padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+      overflow: hidden; /* Vertically center images part 2: clear their floats. */
+    }
+    .featurette-image {
+      margin-top: -120px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
+    }
+
+    /* Give some space on the sides of the floated elements so text doesn't run right into it. */
+    .featurette-image.pull-left {
+      margin-right: 40px;
+    }
+    .featurette-image.pull-right {
+      margin-left: 40px;
+    }
+
+    /* Thin out the marketing headings */
+    .featurette-heading {
+      font-size: 50px;
+      font-weight: 300;
+      line-height: 1;
+      letter-spacing: -1px;
+    }
+
+
+
+    /* RESPONSIVE CSS
+    -------------------------------------------------- */
+
+    @media (max-width: 979px) {
+
+      .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+      }
+      .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+      }
+
+      .carousel .item {
+        height: 500px;
+      }
+      .carousel img {
+        width: auto;
+        height: 500px;
+      }
+
+      .featurette {
+        height: auto;
+        padding: 0;
+      }
+      .featurette-image.pull-left,
+      .featurette-image.pull-right {
+        display: block;
+        float: none;
+        max-width: 40%;
+        margin: 0 auto 20px;
+      }
+    }
+
+
+    @media (max-width: 979px) {
+
+      .navbar-inner {
+        margin: -20px;
+      }
+
+      .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+      }
+      .carousel .container {
+
+      }
+      .carousel .item {
+        height: 300px;
+      }
+      .carousel img {
+        height: 300px;
+      }
+      .carousel-caption {
+        width: 65%;
+        padding: 0 70px;
+        margin-top: 100px;
+      }
+      .carousel-caption h1 {
+        font-size: 30px;
+      }
+      .carousel-caption .lead,
+      .carousel-caption .btn {
+        font-size: 18px;
+      }
+
+      .marketing .span4 + .span4 {
+        margin-top: 40px;
+      }
+
+      .featurette-heading {
+        font-size: 30px;
+      }
+      .featurette .lead {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+
+    }
+.t {
+	height: 35px;
+	background-color: #efefef;
+}
+.t_n {
+	height: 35px;
+	font-size: 14px;
+}
+.t_nl {
+	float: left;
+	height: 35px;
+	width: 320px;
+	color: #666;
+	line-height: 35px;
+}
+.tel {
+	background-image: url(/assets/i/tel.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	float: left;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 25px;
+}
+.mail {
+	line-height: 35px;
+	background-image: url(/assets/i/mail.jpg);
+	background-repeat: no-repeat;
+	background-position: left center;
+	float: left;
+	height: 35px;
+	padding-left: 25px;
+	margin-left: 20px;
+}
+.r_nr {
+	float: right;
+	height: 35px;
+	width: 110px;
+	line-height: 35px;
+	color: #666;
+	text-align: right;
+}
+
+@media (max-width:1000px){
+.searchhide {
+    width: 100%;
+    display: none;
+}    
+}
+
+	
+	
+/* Button */
+.button, .button:visited, input[type="submit"]{
+	background: #539314; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#65b61b', endColorstr='#539314'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#65b61b), to(#539314)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #65b61b,  #539314); /* for firefox 3.6+ */
+	color:#fff;
+	border-bottom:solid 1px #5e9a24;
+	-moz-box-shadow:0 3px 0px rgba(69, 126, 13, 1);
+	-webkit-box-shadow: 0 3px 0px rgba(69, 126, 13, 1);
+	box-shadow: 0 3px 0px rgba(69, 126, 13, 1);
+}
+.button:hover, input[type="submit"]:hover{
+	background: #65b61b; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#539314', endColorstr='#65b61b'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#539314), to(#65b61b)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #539314,  #65b61b); /* for firefox 3.6+ */
+	color:#fff;
+	border-bottom:solid 1px #5e9a24;
+}
+
+.button.orange, .button.orange:visited, input[type="submit"].orange{
+	background: #ff5b23; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff4101', endColorstr='#ff5b23'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff4101), to(#ff5b23)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ff4101,  #ff5b23); /* for firefox 3.6+ */
+	color:#fff;
+	border-bottom:solid 1px #f55a21;
+	-moz-box-shadow:0 1px 0px rgba(0, 0, 0, 1);
+	-webkit-box-shadow: 0 1px 0px rgba(0, 0, 0, 1);
+	box-shadow: 0 1px 0px rgba(0, 0, 0, 1);
+}
+.button.orange:hover, input[type="submit"].orange:hover{
+	background: #ff4101; /* for non-css3 browsers */
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff5b23', endColorstr='#ff4101'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#ff5b23), to(#ff4101)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #ff5b23,  #ff4101); /* for firefox 3.6+ */
+	color:#fff;
+	border-bottom:solid 1px #f55a21;
+}
+
+.button.large{padding:8px 43px 7px 43px;}
+.button.large2{padding:9px 20px 9px 20px;}
+
+.button.rounded, .button.rounded:visited, input[type="submit"].rounded, button.rounded{
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	-khtml-border-radius: 210px;
+	border-radius: 20px;
+}
+.col-md-1{
+	width:30%;
+	float: left;
+	margin-right: 15px;
+}
+.col-md-2{
+	width:42%;
+	float: left;
+	margin-right: 15px;
+}
+.col-md-3{
+	width:25%;
+	float: right;
+}
+
+@media (max-width:1000px){
+.col-md-1, .col-md-2, .col-md-3 {
+    width: 100%;
+    float: none;
+}    
+}
+
+.text-normal{font-weight:normal;margin-top:0px;margin-bottom:1px;}
+.marginLeft5{margin-left:5px;}
+.list-group li{border-bottom:2px #CCC dotted;list-style: none;margin-left:-15px;padding-bottom:17px;margin-bottom:18px;}
+.list-group li:last-child{margin-bottom:0px;padding-bottom:0px;border:0px}
+.list-notice-item{list-style: none;}
+.list-group-links li{border-bottom:2px #CCC dotted;list-style: none;margin-left:-15px;padding-bottom:13px;margin-bottom:12px;font-size:15px;font-weight:bold;}
+.list-group-links li:last-child{margin-bottom:0px;padding-bottom:0px;border:0px;font-size:15px;}
+.footstyle{background:#dfd3bd;padding:10px 0px 10px 0px;}
+.blueblock{width:64px;height:61px;background: #50a7d2;text-align:center;padding-top:3px;color:#fff;}
+.searchstyle{width:128px;}
+.searchbutton{margin-left:-5px;margin-bottom:10px;}
+a{color:rgb(90,90,90);}
+a:hover{color:rgb(0,136,204);text-decoration: none;}
+.upcase{text-transform: none;}
+.bgwhite{background:#FFF;}
+.marketing{padding-bottom:25px;}

@@ -1,0 +1,515 @@
+/* Write your styles */
+/* CSS Document */
+body {
+    padding: 0;
+    margin: 0px auto;
+    font-family: "Segoe UI", "Lucida Grande", Helvetica, Arial, "Microsoft YaHei", FreeSans, Arimo, "Droid Sans", "wenquanyi micro hei", "Hiragino Sans GB", "Hiragino Sans GB W3", FontAwesome, sans-serif;
+    font-size: 14px;
+}
+
+.wrap {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+#banner {
+    height: 148px;
+    background: url("/assets/i/banner.jpg") no-repeat;
+    padding-top: 125px;
+    overflow: hidden;
+}
+
+.language {
+    width: 119px;
+    height: 24px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #fff;
+    font-family: Arial;
+    float:right;
+    background: url("/assets/i/language.png") no-repeat;
+    text-align: center;
+}
+
+.language a, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav {
+    height: 36px;
+    background-color: #289198;
+    line-height: 36px;
+    padding-left: 30px;
+}
+
+/*--*/
+nav ul {
+    margin: 0;
+    padding: 0;
+    z-index: 1;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    display: block;
+    height: 36px;
+    padding-left: 18px;
+    padding-right: 18px;
+    font-size: 1.4rem;
+    transition: 0.3s linear;
+}
+
+nav ul li:hover {
+    background: #126d9b;
+}
+
+nav ul li ul {
+    margin-top: 0px !important;
+    border-bottom: 5px solid #397c9b;
+    display: none;
+    position: absolute;
+    width: 125%;
+    text-align: center;
+}
+
+nav ul li ul li {
+    border-top: 1px solid #adadad;
+    display: block;
+}
+
+nav ul li ul li:first-child {
+    border-top: none;
+}
+
+nav ul li ul li a {
+    background: #039498;
+    display: block;
+    padding: 0px 14px;
+}
+
+nav ul li ul li a:hover {
+    background: #0a6b8e;
+}
+
+nav .fa.fa-angle-down {
+    margin-left: 6px;
+}
+
+/*--*/
+
+nav li a:hover, nav .hover {
+    color: #FFF;
+    text-decoration: none;
+    background-color: #0a6b8e;
+}
+
+#newsarea {
+    margin-top: 10px;
+    margin-left: -1px;
+}
+
+.cb {
+    clear: both;
+}
+
+/* ui-banner */
+.ui-banner {
+    display: block;
+    position: relative;
+    width: 968px;
+}
+
+.ui-banner.ui-banner-invalid {
+    display: none;
+}
+
+.ui-banner, .ui-banner .ui-banner-slides, .ui-banner .ui-banner-slogans, .ui-banner .ui-banner-arrow {
+    height: 298px;
+}
+
+.ui-banner .ui-banner-slides, .ui-banner .ui-banner-slogans, .ui-banner .ui-banner-arrow {
+    position: absolute;
+    top: 0;
+}
+
+.ui-banner ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.ui-banner .ui-banner-slides {
+    width: 445px;
+    height: 298px;
+    left: 1px;
+}
+
+.ui-banner .ui-banner-slides li {
+    display: none;
+    position: absolute;
+    top: 5px;
++ top: 10 px;
+}
+
+.ui-banner .ui-banner-slides li img {
+    width: 445px;
+    height: 288px;
+    border: none;
+}
+
+.ui-banner .ui-banner-slides li.ui-banner-slides-current, .ui-banner .ui-banner-slides li.ui-banner-slides-prev, .ui-banner .ui-banner-slides li.ui-banner-slides-next {
+    display: block;
+}
+
+.ui-banner .ui-banner-slides li.ui-banner-slides-current {
+    left: 0;
+}
+
+.ui-banner .ui-banner-slides li.ui-banner-slides-prev {
+    left: -500px;
+}
+
+.ui-banner .ui-banner-slides li.ui-banner-slides-next {
+    left: 500px;
+}
+
+.ui-banner .ui-banner-slogans {
+    height: 298px;
+    overflow: hidden;
+    width: 518px;
+    right: 0;
+}
+
+.ui-bnnerimg {
+    width: 103px;
+    height: 83px;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.ui-bnnerp {
+    width: 384px;
+    height: 97%;
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+.ui-bnnerp h3 {
+    font-size: 14px;
+    color: #666;
+    height: 8px;
+}
+
+.ui-bnnerp p {
+    color: #666;
+    line-height: 22px;
+    height: 44px;
+    overflow: hidden;
+}
+
+.ui-line {
+    zoom: 1;
+    overflow: hidden;
+}
+
+.ui-line-hover {
+    background: url("../i/stuj.png") no-repeat left center;
+}
+
+.ullinehover {
+    border-bottom: 1px solid #ececec;
+    height: 98px;
+    margin: 0 0 3px 16px;
++ margin: 0 0 1 px 16 px;
+    padding: 6px 0;
+}
+
+.ui-bnnerp-hover {
+    background-color: #67c7d3;
+    color: #fff;
+}
+
+/*.ullinehover:hover .ui-bnnerp h3,.ullinehover:hover .ui-bnnerp p{
+	color: #fff;
+}*/
+.uibannerslog ul li {
+    border: 1px solid red;
+}
+
+.ui-bnnerp-hover h3 {
+    color: #fff;
+    font-weight: bold;
+}
+
+.ui-bnnerp-hover h3, .ui-bnnerp-hover p {
+    color: #fff;
+}
+
+.ui-banner .ui-banner-arrow {
+    display: block;
+    width: 23px;
+    outline: none;
+}
+
+.ui-banner .ui-banner-arrow.ui-banner-arrow-prev {
+    background: transparent url("../i/jleft.jpg") no-repeat scroll 0 0;
+    height: 23px;
+    right: -34px;
+    top: 6px;
+    width: 23px;
+}
+
+.ui-banner .ui-banner-arrow.ui-banner-arrow-next {
+    background: transparent url("../i/jright.jpg") no-repeat;
+    height: 23px;
+    right: -34px;
+    top: 33px;
+    width: 23px;
+}
+
+.ui-banner .ui-banner-arrow.ui-banner-arrow-next img {
+    left: -15px;
+}
+
+.ui-banner .ui-banner-overlay {
+    bottom: 0;
+    height: 10px;
+    position: absolute;
+    right: 0;
+    width: 173px;
+}
+
+#mainContent {
+    margin-top: 12px;
+}
+
+.mainLeft {
+    width: 445px;
+    float: left;
+}
+
+.mainRight {
+    width: 535px;
+    float: right;
+}
+
+.recomm {
+    width: 130px;
+}
+
+.recommTitle {
+    height: 32px;
+    background-color: #4EC6E1;
+    color: #FFF;
+    line-height: 32px;
+    text-align: center;
+    /*font-family: Î¢ÈíÑÅºÚ;*/
+    font-size: 16px;
+}
+
+/*.recomm a{display:block;height:40px;line-height:39px;text-align:center;background-color:#FAFAFA;border-bottom:2px #F2F2F2 solid;color:#000;text-decoration:none;font-family:Î¢ÈíÑÅºÚ;font-size:15px;}*/
+.newsBox {
+    width: 295px;
+}
+
+.mainNewsTitle {
+    padding-left: 4px;
+    height: 30px;
+    line-height: 20px;
+    /*font-family: Î¢ÈíÑÅºÚ;*/
+    font-size: 1.6rem;
+}
+
+.mainNewsTitle span {
+    margin-left: 6px;
+    color: #B1B1B1;
+}
+
+.mainNewsTitle span a {
+    color: #000000;
+    text-decoration: none;
+    float: right;
+}
+
+.mainNewsLine {
+    height: 2px;
+}
+
+.mainNewsLineBlue {
+    width: 75px;
+    background-color: #4EC6E1;
+    height: 2px;
+}
+
+.mainNewsLineGray {
+    background-color: #E6E6E6;
+    height: 1px;
+    margin-top: 1px;
+}
+
+.mainNewsLi {
+    height: 30px;
+    line-height: 30px;
+    text-align: right;
+    font-size: 15px;
+    font-family: Arial;
+}
+
+.mainNewsLi span {
+    color: #1F81B0;
+    font-family: "ËÎÌå";
+}
+
+.mainNewsLi a {
+    color: #000;
+    text-decoration: none;
+    float: left;
+    width: 19.4rem;
+    text-align: left;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.mainNewsLi a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+.mainNewsContent {
+    margin-top: 7px;
+}
+
+#mainEnter {
+    margin-top: 12px;
+}
+
+#mainEnter img {
+    border: 0;
+}
+
+#copyRight {
+    height: 40px;
+    line-height: 40px;
+    background-color: #dfd2bd;
+    font-size: 12px;
+    text-align: center;
+    margin: 17px 0px 12px 0px;
+}
+
+#copyRight span {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 16px;
+    color: #9b866b;
+}
+
+#footer {
+    font-size: 12px;
+    text-align: center;
+    color: #666666;
+    line-height: 24px;
+    padding-bottom: 15px;
+}
+
+#footer a, #footer a:hover {
+    text-decoration: none;
+    color: #666666;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mod-menu {
+    position: relative;
+    z-index: 1000;
+    font-size: 16px;
+    /*font-family: "Î¢ÈíÑÅºÚ";*/
+}
+
+.menu-cont-list a:hover {
+    text-decoration: none;
+}
+
+.mod-menu .menu-item {
+    width: 130px;
+    position: relative;
+    z-index: 22;
+}
+
+.mod-menu .menu-item li {
+    height: 40px;
+    line-height: 39px;
+    background: #FAFAFA;
+    border-bottom: solid 2px #F2F2F2;
+    text-align: center;
+}
+
+.mod-menu .menu-item li.mouse-bg {
+    cursor: pointer;
+    background: #ddd;
+    position: relative;
+    z-index: 22;
+    /*margin-right: -2px;*/
+}
+
+.mod-menu .menu-item a {
+    color: #000000;
+    font-size: 1.4rem;
+    display: block;
+    height: 40px;
+}
+
+.mod-menu .menu-item a:hover {
+    text-decoration: none;
+}
+
+.mod-menu .menu-cont {
+    position: absolute;
+    left: 130px;
+    background: #fff;
+    width: 220px;
+    border: solid 2px #F2F2F2;
+    z-index: 20;
+    margin-top: -3px;
+    padding-bottom: 3px;
+}
+
+.mod-menu .menu-cont-list {
+}
+
+.mod-menu .menu-cont-list li {
+    border-bottom: dashed 1px #F2F2F2;
+    padding: 10px 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.mod-menu .menu-cont-list li a {
+    color: #000;
+}
+
+.mod-menu .menu-cont-list li:last-child {
+    border-bottom: none;
+}
