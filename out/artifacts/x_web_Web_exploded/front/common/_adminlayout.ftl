@@ -15,20 +15,20 @@
     <!-- No Baidu Siteapp-->
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
 
-    <link rel="icon" type="image/png" href="/assets/i/favicon.png">
+    <link rel="icon" type="image/png" href="/english/assets/i/favicon.png">
 
     <!-- Add to homescreen for Chrome on Android -->
     <meta name="mobile-web-app-capable" content="yes">
-    <link rel="icon" sizes="192x192" href="/assets/i/favicon.png">
+    <link rel="icon" sizes="192x192" href="/english/assets/i/favicon.png">
 
     <!-- Add to homescreen for Safari on iOS -->
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
-    <link rel="apple-touch-icon-precomposed" href="/assets/i/favicon.png">
+    <link rel="apple-touch-icon-precomposed" href="/english/assets/i/favicon.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
-    <meta name="msapplication-TileImage" content="/assets/i/favicon.png">
+    <meta name="msapplication-TileImage" content="/english/assets/i/favicon.png">
     <meta name="msapplication-TileColor" content="#0e90d2">
 
     <!-- SEO: If your mobile URL is different from the desktop URL, add a canonical link to the desktop page https://developers.google.com/webmasters/smartphone-sites/feature-phones -->
@@ -43,14 +43,14 @@
     </script>
     <![endif]-->
 
-    <link rel="stylesheet" href="/assets/css/amazeui.flat.min.css">
-    <link rel="stylesheet" href="/assets/css/app.css">
-    <script src="/assets/js/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="/english/assets/css/amazeui.flat.min.css">
+    <link rel="stylesheet" href="/english/assets/css/app.css">
+    <script src="/english/assets/js/jquery-1.12.4.min.js"></script>
 </head>
 <body>
     <#nested>
 
-<#--<script src="/assets/js/amazeui.min.js"></script>-->
+<#--<script src="/english/assets/js/amazeui.min.js"></script>-->
 
 </body>
 </html>

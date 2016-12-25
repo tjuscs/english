@@ -124,10 +124,10 @@
         </div>
     </div>
 
-    <link rel="stylesheet" type="text/css" href="/assets/dataTables/amazeui.datatables.min.css">
-    <script type="text/javascript" charset="utf8" src="/assets/dataTables/amazeui.datatables.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/js/vue.min.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/js/vue-resource.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="/english/assets/dataTables/amazeui.datatables.min.css">
+    <script type="text/javascript" charset="utf8" src="/english/assets/dataTables/amazeui.datatables.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/js/vue.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/js/vue-resource.min.js"></script>
 
     <script type="text/javascript">
         $(function () {
@@ -143,7 +143,7 @@
             };
             var table = $('#dt').DataTable({
                 "ajax": {
-                    "url": "/admin/teacher/list",
+                    "url": "/english/admin/teacher/list",
                     "dataSrc": function (json) {
                         json.data = json.list
                         json.recordsTotal = json.totalRow
@@ -224,7 +224,7 @@
 
             new Vue({
                 http: {
-                    root: '/admin/teacher',
+                    root: '/english/admin/teacher',
                 },
                 el: "#data-form",
                 data: teacherData,
@@ -254,7 +254,7 @@
                         this.currentItem = null;
                     },
                     "peekItem": function () {
-                        window.open("http://localhost:8080/admin/teacher/peek/" + this.currentItem.id);
+                        window.open("http://localhost:8080/english/admin/teacher/peek/" + this.currentItem.id);
                     }
                 },
                 computed: {

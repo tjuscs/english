@@ -55,7 +55,7 @@ h8{ font-size:15px; }
 .widget-recent-posts h6{ font-size:13px; margin-top:10px; margin-bottom:3px; }
 .widget-recent-posts span{ font-size:11px; color:#AAAAAA; text-transform:uppercase; }
 .widget-recent-posts .post-image{ float:left; margin-right:10px }
-.widget-recent-posts .post-image .post-mask{ height:70px; width:70px; background:url(/assets/i/post-avatar.png) no-repeat; position:absolute }
+.widget-recent-posts .post-image .post-mask{ height:70px; width:70px; background:url(/english/assets/i/post-avatar.png) no-repeat; position:absolute }
 
 
 .zerogrid .wrap-col{margin:10px;}
@@ -189,7 +189,7 @@ p.m_para{
 }
 .arrow_btn {
 	display: inline-block;
-	background: url(/assets/i/arrow_btn.png) no-repeat 51px 15px #B7C0CD;
+	background: url(/english/assets/i/arrow_btn.png) no-repeat 51px 15px #B7C0CD;
 	padding: 8px 22px 9px 11px;
 	color: #FFF;
 	font-size: 12px;
@@ -200,7 +200,7 @@ p.m_para{
 	transition: 0.2s;
 }
 .arrow_btn:hover{
-	background: url(/assets/i/arrow_btn.png) no-repeat 51px 15px #00AEFF;
+	background: url(/english/assets/i/arrow_btn.png) no-repeat 51px 15px #00AEFF;
 	text-decoration: none;
 }
 .pagination__posts {

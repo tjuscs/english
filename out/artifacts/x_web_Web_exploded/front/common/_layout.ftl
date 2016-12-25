@@ -20,14 +20,14 @@
         <script src="js/jquery.js"></script>
 
         <!-- styles -->
-        <link href="/assets/css/bootstrap.css" rel="stylesheet">
-        <link href="/assets/css/bootstrap-responsive.css" rel="stylesheet">
-        <link href="/assets/css/style.css" rel="stylesheet">
-        <link href="/assets/css/flexslider.css" rel="stylesheet"/>
+        <link href="/english/assets/css/bootstrap.css" rel="stylesheet">
+        <link href="/english/assets/css/bootstrap-responsive.css" rel="stylesheet">
+        <link href="/english/assets/css/style.css" rel="stylesheet">
+        <link href="/english/assets/css/flexslider.css" rel="stylesheet"/>
 
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
-        <script src="../assets/js/html5shiv.js"></script>
+        <script src="../english/assets/js/html5shiv.js"></script>
         <![endif]-->
 
     </head>
@@ -50,12 +50,12 @@
 <div class="container">
     <div class="bannerme" style="position: relative;">
         <div style="z-index:999;position:absolute;right:0;width:190px;top:36px;" class="searchhide">
-            <form action="/news/search" method="get">
+            <form action="/english/news/search" method="get">
                 <input class="searchstyle" name="searchvalue" type="text" placeholder="Search here...">
-                <input class="searchbutton" type="image" src="/assets/i/boutt.jpg">
+                <input class="searchbutton" type="image" src="/english/assets/i/boutt.jpg">
             </form>
         </div>
-        <div style="z-index:1;"><img src="/assets/i/banner.jpg"></div>
+        <div style="z-index:1;"><img src="/english/assets/i/banner.jpg"></div>
     </div>
 </div>
 
@@ -65,7 +65,7 @@
     </#if>
     <#nested>
 
-<#--<script src="/assets/js/amazeui.min.js"></script>-->
+<#--<script src="/english/assets/js/amazeui.min.js"></script>-->
 
 </body>
 </html>

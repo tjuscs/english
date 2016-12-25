@@ -74,7 +74,7 @@ html[xmlns] .slides {display: block;}
 
 .flex-direction-nav .next {
 	right:-10%;
-	background:url(/assets/i/flex-next.png) no-repeat;
+	background:url(/english/assets/i/flex-next.png) no-repeat;
 	background-position: 53% 50%;
 	-webkit-border-radius: 3px 0 0 3px;
 	-moz-border-radius: 3px 0 0 3px;
@@ -84,7 +84,7 @@ html[xmlns] .slides {display: block;}
 
 .flex-direction-nav .prev {
 	left: -10%;
-	background:url(/assets/i/flex-prev.png) no-repeat;
+	background:url(/english/assets/i/flex-prev.png) no-repeat;
 	background-position: 47% 50%;
 	-webkit-border-radius: 0 3px 3px 0;
 	-moz-border-radius:  0 3px 3px 0;
@@ -92,8 +92,8 @@ html[xmlns] .slides {display: block;}
 	position: absolute;
 }
 
-.flexslider .next {opacity: 1;  background:url(/assets/i/flex-next.png) no-repeat;}
-.flexslider .prev {opacity: 1;  background:url(/assets/i/flex-prev.png) no-repeat;}
+.flexslider .next {opacity: 1;  background:url(/english/assets/i/flex-next.png) no-repeat;}
+.flexslider .prev {opacity: 1;  background:url(/english/assets/i/flex-prev.png) no-repeat;}
 .flex-direction-nav .disabled {opacity: .3!important; filter:alpha(opacity=30); cursor: default;}
-.flexslider:hover .next:hover{opacity: 1;  background:url(/assets/i/flex-next-hover.png) no-repeat;}
-.flexslider:hover .prev:hover {opacity: 1;  background:url(/assets/i/flex-prev-hover.png) no-repeat;}
+.flexslider:hover .next:hover{opacity: 1;  background:url(/english/assets/i/flex-next-hover.png) no-repeat;}
+.flexslider:hover .prev:hover {opacity: 1;  background:url(/english/assets/i/flex-prev-hover.png) no-repeat;}

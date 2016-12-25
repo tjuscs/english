@@ -2,11 +2,11 @@
 <html class="no-js">
 <head>
 <#--css-->
-    <link rel="stylesheet" href="/assets/css/amazeui.min.css"/>
+    <link rel="stylesheet" href="/english/assets/css/amazeui.min.css"/>
 <#--script-->
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/amazeui.min.js"></script>
-    <script src="/assets/js/app.js"></script>
+    <script src="/english/assets/js/jquery.min.js"></script>
+    <script src="/english/assets/js/amazeui.min.js"></script>
+    <script src="/english/assets/js/app.js"></script>
 </head>
 <body>
 

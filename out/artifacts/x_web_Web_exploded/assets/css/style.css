@@ -38,7 +38,7 @@
 	  position: absolute;
 	  width: 35px;
 	  height: 35px;
-	  background: url(/assets/i/nav.png)no-repeat 0px 0px;
+	  background: url(/english/assets/i/nav.png)no-repeat 0px 0px;
 	  display: inline-block;
 	  left:47%;
 	  cursor: pointer;
@@ -83,9 +83,9 @@
     -------------------------------------------------- */
 
 /*============================================ SLIDER   =================================================*/
-#slidercontainer{clear:both; height:auto; position:relative; height:345px;background:url("/assets/i/bg.jpg") center;margin-bottom:15px;}
+#slidercontainer{clear:both; height:auto; position:relative; height:345px;background:url("/english/assets/i/bg.jpg") center;margin-bottom:15px;}
 #slider{position:relative; height:auto;}
-.opacityslider{background:url(/assets/i/opacity-slider.png) repeat; height:10px; position:absolute; width:100%; z-index:10}
+.opacityslider{background:url(/english/assets/i/opacity-slider.png) repeat; height:10px; position:absolute; width:100%; z-index:10}
 #carouselslider{ position:absolute; bottom:-54px; z-index:11; width:1000px;}
 .flexslider{
 	position: relative;
@@ -241,7 +241,7 @@
 	line-height: 35px;
 }
 .tel {
-	background-image: url(/assets/i/tel.jpg);
+	background-image: url(/english/assets/i/tel.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	float: left;
@@ -251,7 +251,7 @@
 }
 .mail {
 	line-height: 35px;
-	background-image: url(/assets/i/mail.jpg);
+	background-image: url(/english/assets/i/mail.jpg);
 	background-repeat: no-repeat;
 	background-position: left center;
 	float: left;

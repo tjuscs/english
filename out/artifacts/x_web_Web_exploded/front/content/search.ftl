@@ -7,7 +7,7 @@
 
 <@layout>
 
-<link href="/assets/css/pages.css" rel="stylesheet">
+<link href="/english/assets/css/pages.css" rel="stylesheet">
 
 <div style="background:#f6f5f2;padding:15px 0px 10px 0px;">
     <div class="container">

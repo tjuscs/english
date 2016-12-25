@@ -2,8 +2,8 @@
 <#import "/front/common/_menu.ftl" as m/>
 <@layout>
 
-<link rel="stylesheet" href="/assets/css/amazeui.flat.min.css">
-<link href="/assets/css/pages.css" rel="stylesheet">
+<link rel="stylesheet" href="/english/assets/css/amazeui.flat.min.css">
+<link href="/english/assets/css/pages.css" rel="stylesheet">
 <!--推荐站点--需JQquery文件-->
 
 <div style="background:#f6f5f2;padding:15px 0px 10px 0px;">

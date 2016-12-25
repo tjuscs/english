@@ -4,7 +4,7 @@
 <#import "/front/common/_newsdetail.ftl" as nd/>
 <#import "/front/common/_detail.ftl" as d/>
 
-<link href="/assets/css/pages.css" rel="stylesheet">
+<link href="/english/assets/css/pages.css" rel="stylesheet">
 
 
 <@layout>

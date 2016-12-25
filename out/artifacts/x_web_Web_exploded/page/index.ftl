@@ -13,12 +13,12 @@
                         <li>
                             <div class="container">
                                 <div class="twelve columns">
-                                    <img src="<#if b_news.img??>/upload/${b_news.img}</#if>"
+                                    <img src="<#if b_news.img??>/english/upload/${b_news.img}</#if>"
                                          alt="${b_news.title}"/>
                                     <div class="flex-caption">
                                         <h1>${b_news.title}</h1>
                                         <p class="slidetext2">${b_news.overview}</p>
-                                        <a href="/news/${b_news.id}" class="button orange rounded large2" target="_blank">View
+                                        <a href="/english/news/${b_news.id}" class="button orange rounded large2" target="_blank">View
                                             more</a>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@
                         <div class="media marginLeft5">
                             <div class="blueblock pull-left"><h1>${i}</h1></div>
                             <div class="media-body">
-                                <li class="list-notice-item"><a href="/news/${news.id}"
+                                <li class="list-notice-item"><a href="/english/news/${news.id}"
                                                                 title="${news.title}"
                                                                 target="_blank">${news.title}</a>
                                 </li>
@@ -61,7 +61,7 @@
                     <legend><h2>NEWS</h2></legend>
                     <ul class="list-group">
                         <#list normal_news as news>
-                            <li><h4 class="text-normal upcase"><a href="/news/${news.id}"
+                            <li><h4 class="text-normal upcase"><a href="/english/news/${news.id}"
                                                                   title="${news.title}"
                                                                   target="_blank">${news.title}</a></h4></li>
                         </#list>
@@ -89,28 +89,28 @@
 </div>
 
 <!-- footfile -->
-<script src="/assets/js/footer.js"></script>
+<script src="/english/assets/js/footer.js"></script>
 
 <!-- Le javascript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="/assets/js/jquery.js"></script>
-<script src="/assets/js/bootstrap-transition.js"></script>
-<script src="/assets/js/bootstrap-alert.js"></script>
-<script src="/assets/js/bootstrap-modal.js"></script>
-<script src="/assets/js/bootstrap-dropdown.js"></script>
-<script src="/assets/js/bootstrap-scrollspy.js"></script>
-<script src="/assets/js/bootstrap-tab.js"></script>
-<script src="/assets/js/bootstrap-tooltip.js"></script>
-<script src="/assets/js/bootstrap-popover.js"></script>
-<script src="/assets/js/bootstrap-button.js"></script>
-<script src="/assets/js/bootstrap-collapse.js"></script>
-<script src="/assets/js/bootstrap-carousel.js"></script>
-<script src="/assets/js/bootstrap-typeahead.js"></script>
-<script src="/assets/js/holder.js"></script>
+<script src="/english/assets/js/jquery.js"></script>
+<script src="/english/assets/js/bootstrap-transition.js"></script>
+<script src="/english/assets/js/bootstrap-alert.js"></script>
+<script src="/english/assets/js/bootstrap-modal.js"></script>
+<script src="/english/assets/js/bootstrap-dropdown.js"></script>
+<script src="/english/assets/js/bootstrap-scrollspy.js"></script>
+<script src="/english/assets/js/bootstrap-tab.js"></script>
+<script src="/english/assets/js/bootstrap-tooltip.js"></script>
+<script src="/english/assets/js/bootstrap-popover.js"></script>
+<script src="/english/assets/js/bootstrap-button.js"></script>
+<script src="/english/assets/js/bootstrap-collapse.js"></script>
+<script src="/english/assets/js/bootstrap-carousel.js"></script>
+<script src="/english/assets/js/bootstrap-typeahead.js"></script>
+<script src="/english/assets/js/holder.js"></script>
 
 <!-- jQuery Flexslider -->
-<script type="text/javascript" src="/assets/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="/english/assets/js/jquery.flexslider-min.js"></script>
 <script type="text/javascript">
     jQuery(window).load(function () {
         jQuery('.flexslider').flexslider({
@@ -122,6 +122,6 @@
 </script>
 
 <!-- jQuery Dropdown Mobile -->
-<script type="text/javascript" src="/assets/js/tinynav.min.js"></script>
+<script type="text/javascript" src="/english/assets/js/tinynav.min.js"></script>
 
 </@layout>

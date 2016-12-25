@@ -15,7 +15,7 @@ body {
 
 #banner {
     height: 148px;
-    background: url("/assets/i/banner.jpg") no-repeat;
+    background: url("/english/assets/i/banner.jpg") no-repeat;
     padding-top: 125px;
     overflow: hidden;
 }
@@ -28,7 +28,7 @@ body {
     color: #fff;
     font-family: Arial;
     float:right;
-    background: url("/assets/i/language.png") no-repeat;
+    background: url("/english/assets/i/language.png") no-repeat;
     text-align: center;
 }
 

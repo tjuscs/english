@@ -4,7 +4,7 @@
     <div class="post">
         <div class="post-margin">
             <#list detail.list as item>
-                <div class="wrapper_top blog_title"><a href="/news/${item.id}" target="_blank">${item.title}</a></div>
+                <div class="wrapper_top blog_title"><a href="/english/news/${item.id}" target="_blank">${item.title}</a></div>
             </#list>
             <div class="pagination pagination__posts">
                 <ul>

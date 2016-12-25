@@ -1,8 +1,8 @@
 <#include "/front/common/_layout.ftl"/>
 <#import "/front/common/_treemenu.ftl" as tm/>
 <@layout>
-<link href="/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
-<link href="/assets/css/pages.css" rel="stylesheet">
+<link href="/english/assets/css/2015_default2.css" rel="stylesheet" type="text/css" media="all">
+<link href="/english/assets/css/pages.css" rel="stylesheet">
 
 <style>
     .t-l > div {
@@ -20,8 +20,7 @@
     }
 
     div.t-l li {
-            <#if strategy == "award">border-bottom: 1px #CCCCCC dashed;</#if>
-            <#if strategy == "jobTitle">float: left;</#if>
+        float: left;
         color: #999999;
         <#if strategy == "jobTitle">
             margin: 0 2.5rem;
@@ -55,7 +54,7 @@
                                         <h1>${k.key}</h1>
                                         <ul style="list-style-type:none;">
                                             <#list k.value as t>
-                                                <li <#if strategy == "award">style="text-align: left;width: 100%" </#if>><a
+                                                <li <#if strategy == "award">style="text-align: left;width: auto;" </#if>><a
                                                         href="/teacher/detail/${t.id}">
                                                     <#if strategy == "award">
                                                         <#if t.awardName?has_content>
@@ -63,8 +62,8 @@
                                                         </#if>
                                                     </#if>${t.name}</a></li>
                                             </#list>
-                                            <#if strategy == "jobTitle">
-                                                <div style="clear:both"></div></#if>
+                                            <div style="clear:both"></div>
+
                                         </ul>
                                         <br>
                                     </#list>

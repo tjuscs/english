@@ -69,10 +69,10 @@
         </div>
     </div>
 
-    <link rel="stylesheet" type="text/css" href="/assets/dataTables/amazeui.datatables.min.css">
-    <script type="text/javascript" charset="utf8" src="/assets/dataTables/amazeui.datatables.min.js"></script>
-<#--<script type="text/javascript" charset="utf-8" src="/assets/js/vue.min.js"></script>-->
-<#--<script type="text/javascript" charset="utf-8" src="/assets/js/vue-resource.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="/english/assets/dataTables/amazeui.datatables.min.css">
+    <script type="text/javascript" charset="utf8" src="/english/assets/dataTables/amazeui.datatables.min.js"></script>
+<#--<script type="text/javascript" charset="utf-8" src="/english/assets/js/vue.min.js"></script>-->
+<#--<script type="text/javascript" charset="utf-8" src="/english/assets/js/vue-resource.min.js"></script>-->
 
     <script type="text/javascript">
         $(function () {
@@ -81,7 +81,7 @@
             };
             var table = $('#dt').DataTable({
                 "ajax": {
-                    "url": "/admin/mail/list",
+                    "url": "/english/admin/mail/list",
                     "dataSrc": function (json) {
                         json.data = json.list
                         json.recordsTotal = json.totalRow
@@ -132,7 +132,7 @@
                     layer.confirm('确定删除？', {
                         btn: ['确定', '取消'] //按钮
                     }, function () {
-                        $.get("/admin/mail/delete?id=" + data.id, function (data) {
+                        $.get("/english/admin/mail/delete?id=" + data.id, function (data) {
                             layer.msg('删除成功', {icon: 1});
                             table.draw();
                         })

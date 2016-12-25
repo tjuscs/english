@@ -1,20 +1,20 @@
 <#include "../core/_layout.ftl"/>
 <@layout>
 <head>
-<#--<link rel="stylesheet" href="/assets/css/bootstrap.min.css">-->
-    <link rel="stylesheet" href="/assets/js/element.css">
-<#--<script src="/assets/js/jquery.min.js"></script>-->
-<#--<script src="/assets/js/bootstrap.min.js"></script>-->
-    <script src="/assets/js/moment.js"></script>
+<#--<link rel="stylesheet" href="/english/assets/css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="/english/assets/js/element.css">
+<#--<script src="/english/assets/js/jquery.min.js"></script>-->
+<#--<script src="/english/assets/js/bootstrap.min.js"></script>-->
+    <script src="/english/assets/js/moment.js"></script>
 
-    <script type="text/javascript" charset="utf-8" src="/assets/ueeditor/ueditor.config.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/ueeditor/ueditor.all.min.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/ueeditor/ueditor.config.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/ueeditor/ueditor.all.min.js"></script>
     <!--建议手动加在语言，避免在ie下有时因为加载语言失败导致编辑器加载失败-->
     <!--这里加载的语言文件会覆盖你在配置项目里添加的语言类型，比如你在配置项目里配置的是英文，这里加载的中文，那最后就是中文-->
-    <script type="text/javascript" charset="utf-8" src="/assets/ueeditor/lang/zh-cn/zh-cn.js"></script>
-    <script src="/assets/js/vue2.0.js"></script>
-    <script type="text/javascript" charset="utf-8" src="/assets/js/vue-resource.min.js"></script>
-    <script src="/assets/js/element.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/ueeditor/lang/zh-cn/zh-cn.js"></script>
+    <script src="/english/assets/js/vue2.0.js"></script>
+    <script type="text/javascript" charset="utf-8" src="/english/assets/js/vue-resource.min.js"></script>
+    <script src="/english/assets/js/element.js"></script>
 </head>
 <div class="am-cf admin-main">
 
@@ -111,11 +111,11 @@
         </div>
     </div>
 </div>
-<link rel="stylesheet" type="text/css" href="/assets/dataTables/amazeui.datatables.min.css">
-<link rel="stylesheet" type="text/css" href="/assets/zTree_v3-master/css/zTreeStyle/zTreeStyle.css">
-<script type="text/javascript" charset="utf8" src="/assets/dataTables/amazeui.datatables.min.js"></script>
-<script src="/assets/zTree_v3-master/js/jquery.ztree.core.min.js"></script>
-<script src="/assets/js/moment.js"></script>
+<link rel="stylesheet" type="text/css" href="/english/assets/dataTables/amazeui.datatables.min.css">
+<link rel="stylesheet" type="text/css" href="/english/assets/zTree_v3-master/css/zTreeStyle/zTreeStyle.css">
+<script type="text/javascript" charset="utf8" src="/english/assets/dataTables/amazeui.datatables.min.js"></script>
+<script src="/english/assets/zTree_v3-master/js/jquery.ztree.core.min.js"></script>
+<script src="/english/assets/js/moment.js"></script>
 
 <script type="text/javascript">
     $(function () {
@@ -143,7 +143,7 @@
             },
             callback: {
                 onClick: function (event, treeId, treeNode) {
-                    $.get("/admin/blog/detail?id=" + treeNode['id']).then(
+                    $.get("/english/admin/blog/detail?id=" + treeNode['id']).then(
                             function (json) {
                                 if (json != null) {
                                     data.blog = json;
@@ -165,7 +165,7 @@
         };
 
 
-        $.getJSON("/admin/blog/categories", {}, function (data) {
+        $.getJSON("/english/admin/blog/categories", {}, function (data) {
             $.fn.zTree.init($("#tree"), setting, data);
         });
 
@@ -175,7 +175,7 @@
                 layer.confirm('确定删除？', {
                     btn: ['确定', '取消'] //按钮
                 }, function () {
-                    $.get("/admin/blog/delete?id=" + data.id, function (data) {
+                    $.get("/english/admin/blog/delete?id=" + data.id, function (data) {
                         layer.msg('删除成功', {icon: 1});
                         table.draw();
                     })
@@ -187,13 +187,13 @@
                     shadeClose: true,
                     shade: 0.8,
                     area: ['80%', '90%'],
-                    content: '/admin/blog/content?id=' + data.id,
+                    content: '/english/admin/blog/content?id=' + data.id,
                 })
             } else if ($(this).hasClass("am-btn-success")) {
                 layer.confirm('确定审核通过？', {
                     btn: ['确定', '取消'] //按钮
                 }, function () {
-                    $.get("/admin/blog/verified?id=" + data.id, function (data) {
+                    $.get("/english/admin/blog/verified?id=" + data.id, function (data) {
                         layer.msg('成功通过审核', {icon: 1});
                         table.draw();
                     })
@@ -206,7 +206,7 @@
         new Vue({
             el: "#app",
             http: {
-                root: '/admin/blog'
+                root: '/english/admin/blog'
             },
             data: data,
             methods: {
