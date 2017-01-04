@@ -268,7 +268,7 @@
     $(function () {
         var vr = new Vue({
             http: {
-                root: '/teacher'
+                root: '/english/teacher'
             },
             el: "#data-form",
             data: {

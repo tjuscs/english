@@ -11,6 +11,7 @@ import com.jfinal.kit.HttpKit;
 import com.jfinal.kit.JsonKit;
 import com.jfinal.kit.StrKit;
 import com.jfinal.plugin.activerecord.Page;
+import com.jfinal.plugin.ehcache.CacheKit;
 import org.apache.commons.codec.digest.DigestUtils;
 
 /**
@@ -52,6 +53,7 @@ public class TeacherController extends Controller {
         } else {
             model.save();
         }
+        CacheKit.removeAll("teacher");
         renderJson(model);
     }
 
@@ -61,6 +63,7 @@ public class TeacherController extends Controller {
         } catch (Exception e) {
             getResponse().setStatus(500);
         }
+        CacheKit.removeAll("teacher");
         renderJson();
     }
 

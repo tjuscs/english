@@ -106,7 +106,7 @@ public class TeacherController extends Controller {
             data.setUserId(model.getId());
             data.save();
         }
-
+        CacheKit.removeAll("teacher");
         renderJson(model);
     }
 
@@ -119,6 +119,7 @@ public class TeacherController extends Controller {
         } catch (Exception ex) {
             renderError(404);
         }
+        CacheKit.removeAll("teacher");
     }
 
 
@@ -132,6 +133,7 @@ public class TeacherController extends Controller {
 //
 //		model.save();
 //		renderJson(model);
+        CacheKit.removeAll("teacher");
     }
 
     @Before({TeacherAuthInterceptor.class, SessionInViewInterceptor.class})
@@ -152,6 +154,7 @@ public class TeacherController extends Controller {
 
         model.findById(model.getId());
         setSessionAttr(TEACHER_KEY, model);
+        CacheKit.removeAll("teacher");
         renderJson(model);
     }
 

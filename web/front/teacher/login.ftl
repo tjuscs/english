@@ -45,7 +45,7 @@
             <br>
             <input id="captcha" type="text" name="captcha" value=""
                    style="display: inline;margin-right: 10px;width: 65%;float: left">
-            <img src="/captcha" style="cursor: pointer;float: left" onclick="this.src='/captcha?rnd=' + Math.random();">
+            <img src="/english/captcha" style="cursor: pointer;float: left" onclick="this.src='/english/captcha?rnd=' + Math.random();">
             <br>
             <hr>
             <div class="am-cf">
