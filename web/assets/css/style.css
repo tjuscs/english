@@ -236,7 +236,7 @@
 .t_nl {
 	float: left;
 	height: 35px;
-	width: 320px;
+	width: 450px;
 	color: #666;
 	line-height: 35px;
 }
@@ -259,6 +259,17 @@
 	padding-left: 25px;
 	margin-left: 20px;
 }
+.teacher {
+	 line-height: 35px;
+	 background-image: url(/english/assets/i/nav.png);
+	 background-repeat: no-repeat;
+	 background-position: left center;
+	 float: left;
+	 height: 35px;
+	 padding-left: 25px;
+	 margin-left: 20px;
+     background-size: 17px;
+ }
 .r_nr {
 	float: right;
 	height: 35px;

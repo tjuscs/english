@@ -23,7 +23,7 @@
         float: left;
         color: #999999;
         <#if strategy == "jobTitle">
-            margin: 0 2.5rem;
+            margin: 0 1rem;
         <#else >
             margin-left: 0px;
         </#if>
@@ -31,7 +31,7 @@
         height: 30px;
         line-height: 30px;
         padding-top: 2px;
-        width: 68px;
+        width: 150px;
         text-align: center;
     }
 

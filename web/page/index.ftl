@@ -74,9 +74,8 @@
                     <legend><h2>LINKS</h2></legend>
                     <ul class="list-group-links">
                         <li><a href="http://www.tju.edu.cn/english" target="_blank">Tianjin University</a></li>
-                        <li><a href="http://www.lib.tju.edu.cn/english/index.html" target="_blank">TJU Library</a></li>
-                        <li><a href="http://www.tju.edu.cn/english/Schools/Schools/" target="_blank">Schools of TJU</a>
-                        </li>
+                        <li><a href="http://www.lib.tju.edu.cn" target="_blank">TJU Library</a></li>
+                        <li><a href="http://www.tju.edu.cn/english" target="_blank">Schools of TJU</a></li>
                         <li><a href="http://www.tju.edu.cn/gsen/" target="_blank">Graduate School of TJU</a></li>
                         <li><a href="http://e.tju.edu.cn" target="_blank">Office System of TJU</a></li>
                         <li><a href="http://219.243.39.24/wctju2015" target="_blank">Information Center of TJU</a></li>

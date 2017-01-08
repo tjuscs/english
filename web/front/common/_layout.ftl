@@ -39,6 +39,7 @@
             <div class="t_nl">
                 <p class="tel">+86-022-27403405</p>
                 <p class="mail">mseic@tju.edu.cn</p>
+                <p class="teacher"><a href="http://mse.tju.edu.cn/english/teacher/profile" target="_blank">Teacher</a></p>
             </div>
             <div class="r_nr"><a href="http://mse.tju.edu.cn" target="_blank">Chinese Verson</a></div>
             <div style="clear:both;"></div>

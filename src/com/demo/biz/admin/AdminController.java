@@ -52,11 +52,18 @@ public class AdminController extends Controller {
             Optional<AdminPrivileges> privileges = Optional.ofNullable(AdminPrivileges.dao.findById(admin.get().getId()));
             if (privileges.isPresent()) {
                 List<String> strings = new LinkedList<>(Arrays.asList(privileges.get().getPrivileges().substring(1, privileges.get().getPrivileges().length() - 1).split(",")));
-                if (strings.contains("2")) {
-                    strings.add("14");
+                if (strings.contains("6")) {
+                    strings.add("29");
+                    strings.add("30");
+                    strings.add("31");
                 }
                 if (strings.contains("4")) {
-                    strings.add("30");
+                    strings.add("15");
+                    strings.add("16");
+                    strings.add("17");
+                    strings.add("18");
+                    strings.add("19");
+                    strings.add("34");
                 }
                 String[] res = new String[strings.size()];
                 setSessionAttr(USER_PRIVILEGES_KEY, strings.toArray(res));
