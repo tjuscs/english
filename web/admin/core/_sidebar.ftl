@@ -2,7 +2,7 @@
 <div class="admin-sidebar am-offcanvas" id="admin-offcanvas">
     <div class="am-offcanvas-bar admin-offcanvas-bar">
         <ul class="am-list admin-sidebar-list">
-            <li><a href="/" target="_blank"><span class="am-icon-home"></span> 首页</a></li>
+            <li><a href="/english" target="_blank"><span class="am-icon-home"></span> 首页</a></li>
 
         <#if session.userPrivileges?seq_contains("3")>
             <li><a href="/english/admin/teacher"><span class="am-icon-home"></span> 教师</a></li>

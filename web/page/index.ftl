@@ -38,7 +38,7 @@
         <div class="row">
             <div class="col-md-1">
                 <fieldset>
-                    <legend><h2>NOTICES</h2></legend>
+                    <legend><h2><a href="/english/content/33">NOTICES</a></h2></legend>
                     <#global i = 0>
                     <#list notice_news as news>
                         <#global i = i + 1>
@@ -58,7 +58,7 @@
 
             <div class="col-md-2">
                 <fieldset>
-                    <legend><h2>NEWS</h2></legend>
+                    <legend><h2><a href="/english/content/32">NEWS</a></h2></legend>
                     <ul class="list-group">
                         <#list normal_news as news>
                             <li><h4 class="text-normal upcase"><a href="/english/news/${news.id}"

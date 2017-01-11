@@ -16,7 +16,6 @@
                         <ul>
                             <li class="cat-item cat-item-3"><a href="/english/content/21"><b>Profile</b></a></li>
                             <li class="cat-item cat-item-3"><a href="/english/teacher/22"><b>Faculty</b></a></li>
-                            <li class="cat-item cat-item-3"><a href="/english/content/25"><b>Distinguished Faculty</b></a></li>
                         </ul>
                         <div class="clear"></div>
                     </div>
