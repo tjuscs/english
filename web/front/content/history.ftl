@@ -31,7 +31,7 @@
 <div class="wrap">
     <div class="middles">
         <div id="banner">
-            <div class="language"><a href="http://211.81.54.98/english/" target="_blank">English</a></div>
+            <div class="language"><a href="http://mse.tju.edu.cn/english/" target="_blank">English</a></div>
         </div>
     <#--渲染菜单头部-->
         <@m.menu menuItems = types/>
